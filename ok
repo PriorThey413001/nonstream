@@ -107,14 +107,14 @@ function notify(L_461_arg0, L_462_arg1, L_463_arg2)
             -- guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			L_453_ = false
 			if L_450_.Nigger then
-				notify("Silent Aimlock", "Unlocked", 1)
+				notify("彡 Zukuyo X", "Unlocked", 1)
 			end
 		else
             --guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			L_453_ = true
 			L_452_ = getClosestPlayerToCursor()
 			if L_450_.Nigger then
-				notify("Silent Aimlock", "Locked Onto: " .. tostring(L_452_.Character.Humanoid.DisplayName) .. "", 1)
+				notify("彡 Zukuyo X", "Target: " .. tostring(L_452_.Character.Humanoid.DisplayName) .. "", 1)
 			end
 		end
 	end)
